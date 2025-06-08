@@ -4,9 +4,9 @@ import Link from "next/link";
 
 export function Header() {
   return (
-    <header className="flex items-center justify-between p-4 bg-black text-white">
+    <header className="flex items-center justify-between p-4 text-white border-b border-white bg-black">
       <div>
-        <Image src={Logo} width={95} height={95} alt="Logo" />
+        <Image src={Logo} width={70} height={70} alt="Logo" />
       </div>
 
       <nav>
