@@ -9,6 +9,8 @@ import {
   SiZod,
   SiReacthookform,
   SiCanva,
+  SiJest,
+  SiVitest,
 } from "react-icons/si";
 import { TbSql } from "react-icons/tb";
 import { VscVscode } from "react-icons/vsc";
@@ -37,6 +39,8 @@ export function Technology() {
         <SiZod size={40} color="blue" />
         <SiCanva size={40} color="pink" />
         <VscVscode size={40} color="blue" />
+        <SiJest size={40} color="purple" />
+        <SiVitest size={40} color="green" />
       </div>
     </div>
   );
